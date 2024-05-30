@@ -53,4 +53,3 @@ class UserDeleteView(DestroyAPIView):
     queryset = User.objects.all()
     serializer_class = UserDestroySerializer
     # permission_classes = [IsAuthenticated]
-#ghdsjkgfdslkfsdko
